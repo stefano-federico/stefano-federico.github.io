@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stefano Federico - Economist</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+    }
+    header, footer {
+      background: #f8f8f8;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .paper {
+      margin-bottom: 2rem;
+    }
+    .abstract {
+      font-style: italic;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      display: block;
+      max-width: 150px;
+      border-radius: 50%;
+      margin: 1rem auto;
+    }
+    ul {
+      padding-left: 1rem;
+    }
+  </style>
+<script>
+  function toggleAbstract(id) {
+    var abstract = document.getElementById(id);
+    if (abstract.style.display === "none") {
+      abstract.style.display = "block";
+    } else {
+      abstract.style.display = "none";
+    }
+  }
+</script>
+</head>
+<body>
+  <header>
+    <h1>Stefano Federico</h1>
+    <p>Economist | Banca d'Italia</p>
+    <p><a href="mailto:stefano.federico@bancaditalia.it">stefano.federico@bancaditalia.it</a></p>
+  </header>
+
+  <img src="Stefano%20Federico%20foto.jpg" alt="Stefano Federico">
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>I am a Director at the Bank of Italy, where I lead the Balance of Payments Analysis Unit. My research interests include international trade, international finance, and the balance of payments.</p>
+    </section>
+
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <p>Bank of Italy (2001–to date)</p>
+      <p>MPhil in Economics, University of Cambridge (2000–2001)</p>
+      <p>BA in Political Science at Università di Pisa and Sant'Anna School for Advanced Studies (1996–2000)</p>
+    </section>
+
+    <section>
+      <h2>Published Papers</h2>
+      <div class="paper" id="paper1">
+        <strong>Trade Shocks and Credit Reallocation</strong><br>
+        <em>American Economic Review</em>, 115(4), 1142–1169, 2025. <a href="https://www.aeaweb.org/articles?id=10.1257/aer.20200704" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract1')">Show abstract</a>
+        <div class="abstract" id="abstract1" style="display:none;">We identify a credit-supply contraction that arises endogenously after trade liberalization. Banks with loan portfolios concentrated in sectors exposed to competition from China face an increase in non-performing loans after China’s entry into the World Trade Organization. As a result, they reduce the supply of credit to firms, irrespective of the firm’s sector of operation. This cut in credit translates into lower employment, investment, and output.</div>
+      </div>
+      <div class="paper" id="paper2">
+        <strong>Trade in Services Related to Intangibles and the Profit Shifting Hypothesis</strong> (with N. Accoto and G. Oddo)<br>
+        <em>Review of Income and Wealth</em>, 70(4), 1037–1059, 2024. <a href="https://onlinelibrary.wiley.com/doi/10.1111/roiw.12567" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract2')">Show abstract</a>
+        <div class="abstract" id="abstract2" style="display:none;">This paper focuses on the international trade in services related to intangible assets and intellectual property products (IPP), and it explores to what extent they might be used as a channel to shift the profits of multinational firms to tax havens. Using survey data on Italian firms, we first provide a geographical and sectoral analysis of Italy's trade in IPP services.</div>
+      </div>
+      <div class="paper" id="paper3">
+        <strong>Do Links Between Banks Matter for Bilateral Trade?</strong> (with S. Del Prete)<br>
+        <em>Review of World Economics</em>, 156(4), 859–885, 2020. <a href="https://link.springer.com/article/10.1007/s10290-020-00383-1" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract3')">Show abstract</a>
+        <div class="abstract" id="abstract3" style="display:none;">We find evidence of a negative impact of financial shocks on exports, especially to more distant countries and in more financially vulnerable sectors. We also use bank-pair data on Italian banks’ assets and liabilities vis-à-vis their foreign bank counterparts in a specific country to construct proxies for the availability of trade finance in a given market.</div>
+      </div>
+      <div class="paper" id="paper4">
+        <strong>Exporters and Importers of Services: Firm-Level Evidence on Italy</strong> (with E. Tosti)<br>
+        <em>The World Economy</em>, 40(10), 2078–2096, 2017. <a href="https://onlinelibrary.wiley.com/doi/10.1111/twec.12542" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract4')">Show abstract</a>
+        <div class="abstract" id="abstract4" style="display:none;">Our dataset, based on a new Bank of Italy survey, provides information on exports and imports of services (excluding transportation and travel) in 2008–09 for almost 3,000 Italian industrial and services firms, divided by partner country and type of service. We report a set of stylized facts on trade in services. We also analyze the choice between export and foreign direct investment in services at the firm level, thus innovating with respect to the previous literature using industry data.</div>
+      </div>
+      <div class="paper" id="paper5">
+        <strong>Industry Dynamics and Competition from Low-Wage Countries</strong><br>
+        <em>Oxford Bulletin of Economics and Statistics</em>, 76(3), 389–410, 2014. <a href="https://onlinelibrary.wiley.com/doi/10.1111/obes.12023" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract5')">Show abstract</a>
+        <div class="abstract" id="abstract5" style="display:none;">This paper analyses the effect of competition from low-wage countries on domestic activity, using data on 230 Italian manufacturing sectors between 1995 and 2007. We find that low-wage import penetration is negatively related to employment and other measures of activity. The effect is significantly lower in more skill, capital and R&D-intensive sectors and in more vertically differentiated sectors.</div>
+      </div>
+      <div class="paper" id="paper6">
+        <strong>Headquarter Intensity and the Choice Between Outsourcing or Integration</strong><br>
+        <em>Industrial and Corporate Change</em>, 21(6), 1337–1358, 2012. <a href="https://academic.oup.com/icc/article/21/6/1337/652527" target="_blank">[Link]</a>
+        <a href="javascript:void(0)" onclick="toggleAbstract('abstract6')">Show abstract</a>
+        <div class="abstract" id="abstract6" style="display:none;">Using firm-level data for Italy, we find that the preference for integration over outsourcing is positively related to indicators of headquarter intensity, notably capital intensity, and to firm-level productivity. We also find that foreign sourcing strategies are not independent from domestic sourcing strategies. Overall, the evidence provides support to models based on relationship-specific investments.</div>
+      </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Working Papers</h2>
+      <ul>
+        <li><strong>Export shocks and banks' domestic credit: balancing liquidity provision and risk mitigation</strong> (with Giuseppe Marinelli and Francesco Palazzo)</li>
+        <li><strong>Stranded in the ICE: Banks and the transition to electric vehicles</strong> (with Andrea Fabiani)</li>
+        <li><strong>Reshaping trade after Brexit: Firms’ adjustment to uncertainty and non-tariff barriers</strong> (with Simona Giglioli)</li>
+      </ul>
+    </section>
+
+    <section class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:stefano.federico@bancaditalia.it">stefano.federico@bancaditalia.it</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/stefano-federico-35b2219/" target="_blank">[Profile]</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Stefano Federico</p>
+  </footer>
+</body>
+</html>
